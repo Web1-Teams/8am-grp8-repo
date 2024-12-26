@@ -1,8 +1,9 @@
 import React from 'react'
+import Card from './cmponent/card/Card'
 
 const App = () => {
   return (
-    <div>App</div>
+    <Card/>
   )
 }
 
