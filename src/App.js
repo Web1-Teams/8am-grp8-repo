@@ -1,5 +1,6 @@
 
 import Navbar from './components/Navbar'
+
 import SpecialTitle from './components/SpecialTitle'
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
   <div className="mt-40">
    <SpecialTitle title ="janaaaaaaaaaaaa" className="text-center"/>
    <Navbar/>
+   
   </div>
   )
 }

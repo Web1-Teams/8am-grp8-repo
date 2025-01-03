@@ -8,7 +8,7 @@ const PhotoNav = (props) => {
       <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link active"  href="#decoreation">
-          <img class="navPhoto"  alt={img1} src={props.img1}/>
+          <img class="navPhoto"  alt=""src={props.img1}/>
           
           
         </a>
@@ -16,7 +16,7 @@ const PhotoNav = (props) => {
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Distributions">
-          <img alt={img2} className="navPhoto" src={props.img2}/>
+          <img alt="" className="navPhoto" src={props.img2}/>
           
           
         </a>
@@ -24,7 +24,7 @@ const PhotoNav = (props) => {
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Accessories">
-          <img alt={img3}className="navPhoto" src={props.img3}/>
+          <img alt=""className="navPhoto" src={props.img3}/>
           
          
         </a>
