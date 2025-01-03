@@ -1,8 +1,13 @@
-import React from 'react'
+
+import Navbar from './components/Navbar'
+import SpecialTitle from './components/SpecialTitle'
 
 const App = () => {
   return (
-    <div>App</div>
+  <div className="mt-40">
+   <SpecialTitle title ="janaaaaaaaaaaaa" className="text-center"/>
+   <Navbar/>
+  </div>
   )
 }
 
