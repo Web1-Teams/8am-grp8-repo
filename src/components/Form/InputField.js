@@ -9,8 +9,7 @@ const InputField = (props) => {
         name={props.name}
         id={props.name}
         placeholder={props.placeholder}
-        value={props.value}
-        onChange={props.onChange}
+       
       />
     </div>
   );
