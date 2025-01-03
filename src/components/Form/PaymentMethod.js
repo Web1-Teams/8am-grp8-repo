@@ -1,23 +1,20 @@
 import React from 'react';
 
-const PaymentMethod = ({ value, onChange }) => {
+const PaymentMethod = () => {
   return (
     <div className="payment-method">
       <label>Payment Method:</label>
       <div className="payment-options">
         <label>
-          <input type="radio" name="paymentMethod" value="VISA" checked={value === 'VISA'}
-            onChange={onChange} />
+          <input type="radio" name="paymentMethod" value="VISA" />
           VISA
         </label>
         <label>
-          <input type="radio" name="paymentMethod" value="Upon Receipt" checked={value === 'Upon Receipt'}
-            onChange={onChange}/>
+          <input type="radio" name="paymentMethod" value="Upon Receipt" />
           Upon Receipt
         </label>
         <label>
-          <input type="radio"  name="paymentMethod" value="Reflect" checked={value === 'Reflect'}
-            onChange={onChange}/>
+          <input type="radio"  name="paymentMethod" value="Reflect" />
           Reflect
         </label>
       </div>

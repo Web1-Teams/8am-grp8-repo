@@ -1,0 +1,43 @@
+.nav_box {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px 20px; 
+    justify-content: space-between;
+    /*background-color: #333;*/
+  }
+  
+  
+  .cart {
+    position: relative;
+  }
+  
+  .cart i {
+    font-size: 27px; 
+    color: rgb(19, 15, 15); 
+    cursor: pointer; 
+  }
+  
+  .cart i:hover {
+    color: #ffcc00; 
+  }
+  .Golden_Glow {
+    font-size: 1.8rem; 
+    font-weight: bold; 
+    color: #810a8b; 
+    cursor: pointer; 
+    transition: color 0.3s; 
+  }
+  .cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+  }
+  .cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+  }
