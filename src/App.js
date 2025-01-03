@@ -1,9 +1,13 @@
-import React from 'react'
-import Card from './cmponent/card/Card'
+
+import Navbar from './components/Navbar'
+import SpecialTitle from './components/SpecialTitle'
 
 const App = () => {
   return (
-    <Card/>
+  <div className="mt-40">
+   <SpecialTitle title ="janaaaaaaaaaaaa" className="text-center"/>
+   <Navbar/>
+  </div>
   )
 }
 
