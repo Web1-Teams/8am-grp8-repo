@@ -1,14 +1,14 @@
 
 .navPhoto{
-    width: 150px;
-    height: 150px;
+    width: 200 px;
+    height: 200 px;
     border-radius: 100px;
-    padding: 20px;  
+    
     text-align: center;
-    margin-bottom: 2px; 
+    margin-bottom: 10px;
   }
   .container{
-   padding-top: 50px;
+   margin-top: 40px;
    text-align: center;
    padding-right: 100px;
   
@@ -16,6 +16,7 @@
   }
   
   .nav-item>span{
+    width: bold;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -30,8 +31,4 @@
   transform: scale(1.1);
   }
   
-  .nav-item>a>img{
-  box-shadow: 
-  0 1px 10px rgba(0, 0,0, 0.3),
-  0 5px 10px rgba(0, 0,0, 0.1);
-  }
+  
