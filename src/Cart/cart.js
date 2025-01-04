@@ -9,6 +9,10 @@ const Cart = ({ cart, setCart }) => {
     );
     setCart(updatedCart);
   };
+  const handleRemove = (id) => {
+    const updatedCart = cart.filter((item) => item.id !== id);
+    setCart(updatedCart);
+  };
 
   return (
     <article>
@@ -26,7 +30,7 @@ const Cart = ({ cart, setCart }) => {
           </div>
           <div>
             <span>${item.price}</span>
-            <button>Remove</button>
+            <button className="remove-btn" onClick={() => handleRemove(item.id)}>Remove</button>
           </div>
         </div>
       ))}
