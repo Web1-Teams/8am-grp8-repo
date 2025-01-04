@@ -1,7 +1,7 @@
 
 
 import Navbar from './components/Navbar'
-import OrderForm from './components/Form/OrderForm'
+import Footer from './components/Footer/Footer'
 import SpecialTitle from './components/SpecialTitle'
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
   <div className="mt-40">
    <SpecialTitle title ="jana" className="text-center"/>
    <Navbar/>
-   <OrderForm/>
+   <Footer/>
   
   </div>
   )
