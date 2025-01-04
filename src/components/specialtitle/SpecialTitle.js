@@ -1,7 +1,10 @@
+import './specialtitle.css'
+
+
 const SpecialTitle = (props) => {
     return (
       <div>
-        <p className={props.className}>{props.title}</p>
+        <p className="fancy-title">{props.title}</p>
       </div>
     );
   };
