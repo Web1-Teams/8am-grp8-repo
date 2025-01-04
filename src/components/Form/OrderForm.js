@@ -43,7 +43,7 @@ const OrderForm = () => {
     
     const phoneRegex = /^[0-9]{10}$/;  
     if (!phoneRegex.test(phone)) {
-      alert('Please enter a valid phone number!');
+      alert('Please enter a valid Phone number!');
       return; 
     }
     setFormData({
@@ -61,11 +61,11 @@ const OrderForm = () => {
   };
 
   return (
-    <div className="form-container" >
+    <div className="form-container  "   >
       
       <p className="header-message">Please fill out the order form so we can serve you better!</p>
       <form className="order-form"onSubmit={handleSubmit}>
-        <h2>Order Information</h2>
+        <h2 id="form">Order Information</h2>
         <div className="form-row" >
           <InputField label="First Name" name="firstName" placeholder="Enter your first name"   value={formData.firstName}
             onChange={handleChange}/>
@@ -90,7 +90,7 @@ const OrderForm = () => {
           onChange={handleChange} />
         <Button label="Send" />
       </form>
-      <p className="footer-message">Thank you for your order! We appreciate your trust in us.</p>
+      
     </div>
   );
 };
