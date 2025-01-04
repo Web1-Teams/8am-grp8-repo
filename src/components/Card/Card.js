@@ -13,6 +13,8 @@ const Card =(props) =>{
         <span className="price">${props.price}</span>
         <button className="btn">Add to Cart</button>
       </div>
+
+      
     </div>
   );
 }
