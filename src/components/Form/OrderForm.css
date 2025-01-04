@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  display: flex;                  
+  justify-content: center;         
+  align-items: center;             
+  height: 100vh;                   
+  background-color: #ffffff; 
+ 
+}
+.form-container {
+  border-radius: 40px;
+  width: 500px;
+  padding: 30px 20px;
+  background-color: #ffffff; 
+  
+  box-shadow: 0 10px 30px rgb(53, 50, 50);
+ 
+}
+
+.header-message {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.order-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+ 
+}
+
+
+#form {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+ 
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.form-row {
+  
+  display: flex;
+  gap: 40px;
+  margin-bottom: 15px;
+  
+}
+.input-field {
+  flex: 1;
+}
+.input-field label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+ 
+}
+.input-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.payment-method {
+  margin-bottom: 10px;
+ 
+}
+
+.payment-method label {
+  font-weight: bold;
+  display: flex;
+  font-size: 18px;
+ font-weight: bold;
+  font-size: 15px;
+
+
+}
+.payment-options {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 15px;
+ 
+ 
+
+  
+}
+.payment-options input[type="radio"]  {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 8px;
+
+  
+}
+.sub-button {
+  text-align: center;
+}
+
+.sub-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 13px;
+}
+.sub-button button:hover {
+  background-color: #0056b3;
+}
