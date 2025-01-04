@@ -4,6 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import { FaBars, FaGoogle } from "react-icons/fa"
 import navLinks from "../data/data"
 import { useState } from "react"
+import {Link} from "react-router-dom"
 
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
 
  const displayNav= navLinks.map((link) =>(
     <li key={link.id}>
-    <a href ={link.path} className=" hover:text-pink-500 text-[17px]">{link.name}</a>
+    <Link to ={link.path} className=" hover:text-pink-500 text-[17px]">{link.name}</Link>
   
     </li>
  ))
