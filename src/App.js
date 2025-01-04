@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-
 import Home from "./components/Pages/Home";
 import Event from "./components/Pages/Event";
 import Products from "./components/Pages/Products";
@@ -12,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
 
   return (
+
    <>
    <BrowserRouter>
    <Toaster/>
@@ -31,6 +31,8 @@ const App = () => {
 
    </>
      );
+
+ 
 }
 
 export default App 
