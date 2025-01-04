@@ -1,20 +1,23 @@
 import React from 'react';
 
-const PaymentMethod = () => {
+const PaymentMethod = ({ value, onChange }) => {
   return (
     <div className="payment-method">
       <label>Payment Method:</label>
       <div className="payment-options">
         <label>
-          <input type="radio" name="paymentMethod" value="VISA" />
+          <input type="radio" name="paymentMethod" value="VISA" checked={value === 'VISA'}
+            onChange={onChange} />
           VISA
         </label>
         <label>
-          <input type="radio" name="paymentMethod" value="Upon Receipt" />
+          <input type="radio" name="paymentMethod" value="Upon Receipt" checked={value === 'Upon Receipt'}
+            onChange={onChange}/>
           Upon Receipt
         </label>
         <label>
-          <input type="radio"  name="paymentMethod" value="Reflect" />
+          <input type="radio"  name="paymentMethod" value="Reflect" checked={value === 'Reflect'}
+            onChange={onChange}/>
           Reflect
         </label>
       </div>
@@ -22,4 +25,4 @@ const PaymentMethod = () => {
   );
 };
 
-export default PaymentMethod;
+export default PaymentMethod;
