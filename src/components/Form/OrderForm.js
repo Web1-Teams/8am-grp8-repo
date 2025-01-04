@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import InputField from './InputField';
 import PaymentMethod from './PaymentMethod';
-import Button from './Button';
+
 import './OrderForm.css';
 
 const OrderForm = () => {
