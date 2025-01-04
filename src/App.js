@@ -11,9 +11,6 @@ const App = () => {
    <SpecialTitle title ="jana" className="text-center"/>
    <Navbar/>
    
-    
-    
-   
 
 
   </div>
