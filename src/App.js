@@ -1,5 +1,5 @@
 
-import Footer from './components/Footer/Footer'
+
 import Navbar from './components/Navbar'
 import SpecialTitle from './components/SpecialTitle'
 
@@ -8,11 +8,14 @@ import SpecialTitle from './components/SpecialTitle'
 const App = () => {
   return (
   <div className="mt-40">
-   <SpecialTitle title ="janaaaaaaaaaaaa" className="text-center"/>
+   <SpecialTitle title ="jana" className="text-center"/>
    <Navbar/>
-
-    <Footer/>
    
+    
+    
+   
+
+
   </div>
   )
 }
