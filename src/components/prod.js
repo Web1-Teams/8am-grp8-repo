@@ -1,16 +1,16 @@
-import React,{useState} from "react";
+import React from "react";
 import list from '../data';
 import Cards from'./card';
 import '../styles/prod.css';
 
-const Prod=({handleClick})=>{
+const Prod=({cart, setCart, setWarning })=>{
     
 
     return(
         <section>
             {
                 list.map((item)=>(
-                <Cards key={item.id} item={item} handleClick={handleClick}/>
+                <Cards key={item.id} item={item} cart={cart} setCart={setCart} setWarning={setWarning}/>
             ))}
         </section>
     );
