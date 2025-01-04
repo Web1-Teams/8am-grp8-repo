@@ -1,16 +1,16 @@
 
 
 import Navbar from './components/Navbar'
-
+import Footer from './components/Footer/Footer'
 import SpecialTitle from './components/SpecialTitle'
-import OrderForm from './components/Form/OrderForm'
 
 const App = () => {
   return (
   <div className="mt-40">
    <SpecialTitle title ="jana" className="text-center"/>
   <Navbar/>
-   <OrderForm/>
+   
+   <Footer/>
   </div>
   )
 }
