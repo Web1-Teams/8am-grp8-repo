@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "./Counter"; 
+import Counter from "./Counter/Counter"; 
 import "../styles/cart.css";
 
 const Cart = ({ cart, setCart }) => {
