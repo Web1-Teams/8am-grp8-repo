@@ -17,6 +17,7 @@
   }
   
   .nav-item>span{
+    width: bold;
     display: flex;
     flex-direction: column;
     text-align: center;
