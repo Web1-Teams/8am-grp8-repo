@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
-import AddToCart from "../AddToCart";
+import AddToCart from "../AddToCard/AddToCart";
+
 const Card = (props) => {
   return (
     <div className="card">
@@ -11,12 +12,10 @@ const Card = (props) => {
       </div>
       <div className="card-footer">
         <span className="price">${props.price}</span>
-        <AddToCart
-        item={props.item} 
+       <AddToCart   item={props.item} 
         cart={props.cart} 
         setCart={props.setCart} 
-        setWarning={props.setWarning}
-      />
+        setWarning={props.setWarning}/>
       </div>
      </div>
   );
