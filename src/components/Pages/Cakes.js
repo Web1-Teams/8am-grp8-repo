@@ -1,5 +1,5 @@
 import Banner from "../Banner/Banner";
-import SpecialTitle from "../SpecialTitle";
+import SpecialTitle from "../specialtitle/SpecialTitle";
 import cakeB from '../assest/images/imageW/cake.jpg';
 
 const Cakes = () => {
