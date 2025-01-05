@@ -1,6 +1,6 @@
 const SpecialTitle = (props) => {
     return (
-      <div>
+      <div className="mt-3">
         <p className={props.className}>{props.title}</p>
       </div>
     );

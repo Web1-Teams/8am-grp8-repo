@@ -19,6 +19,8 @@
     background-size: 300% 300%;
     animation: waveAnimation 15s ease-in-out infinite;
     height: auto;
+   
+
   }
   
   .hero .text {
@@ -46,7 +48,7 @@
   }
   
   .hero .text button {
-    background-color: #fdbb2d;
+    background-color: #0227fc;
     border: none;
     padding: 15px 35px;
     color: #fff;
