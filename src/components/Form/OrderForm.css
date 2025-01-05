@@ -5,13 +5,7 @@
   
 }
 
-body {
-  display: flex;                  
-  justify-content: center;         
-  align-items: center;             
-  height: 100vh;                   
-  background-color: #ffffff; 
-}
+
 .form-container {
   border-radius: 40px;
   width: 500px;

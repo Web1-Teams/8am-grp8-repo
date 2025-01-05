@@ -1,36 +1,28 @@
 import './PhotoNav.css';
 
-
-
 const PhotoNav = (props) => {
+  return (
+    <nav>
+      <div className="container">
+        <a className="nav-item" href="#decoration">
+          
+            <img className="navPhoto" src={props.img1} alt="Decoration" />
+            <span className="-maxs -fs14 -elli2">Decoration</span>
+          
+        </a>
+        
+        <a className="nav-item" href="#Distributions">
+          <img className="navPhoto" src={props.img2} alt="Distributions" />
+          <span className="-maxs -fs14 -elli2">Distributions</span>
+        </a>
+        
+        <a className="nav-item" href="#Accessories">
+          <img className="navPhoto" src={props.img3} alt="Accessories" />
+          <span className="-maxs -fs14 -elli2">Accessories</span>
+        </a>
+      </div>
+    </nav>
+  );
+};
 
-   return ( 
-      <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active"  href="#decoreation">
-          <img class="navPhoto"  alt=""src={props.img1}/>
-          
-          
-        </a>
-        <span>Decorate</span>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Distributions">
-          <img alt="" className="navPhoto" src={props.img2}/>
-          
-          
-        </a>
-        <span>Distribution</span>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Accessories">
-          <img alt=""className="navPhoto" src={props.img3}/>
-          
-         
-        </a>
-        <span>Accessories</span>
-      </li>
-    </ul>
-    );
-    };
 export default PhotoNav;
