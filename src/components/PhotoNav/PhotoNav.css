@@ -1,17 +1,19 @@
 
 .navPhoto{
-    width: 200px;
+    width:200px;
     height: 200px;
     border-radius: 100px;
+   
     text-align: center;
     margin-bottom: 10px; 
+   
   }
   .container{
-    margin-top: 40px;
+   
    text-align: center;
    padding-right: 100px;
-  
-  
+
+   margin-top: 40px; 
   }
   
   .nav-item>span{
@@ -21,6 +23,7 @@
     text-align: center;
     font-size:20px;
     font-style: italic;
+    width:bold ;
    }
   
   
@@ -30,3 +33,4 @@
   transform: scale(1.1);
   }
   
+ 

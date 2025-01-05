@@ -1,6 +1,6 @@
 //import cake7 from '../images/cake-7.jpg';
 //import cake2 from '../images/cake-2.jpg';
-const list=[
+const productlist=[
    {
     id:1,
     title:"BERRY MERINGUE CAKE",
@@ -17,4 +17,4 @@ const list=[
    },
    
 ];
-export default list;
+export default productlist;

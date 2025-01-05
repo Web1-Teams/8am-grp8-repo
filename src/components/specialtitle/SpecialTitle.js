@@ -1,3 +1,6 @@
+import './specialtitle.css'
+
+
 const SpecialTitle = (props) => {
     return (
       <div>
