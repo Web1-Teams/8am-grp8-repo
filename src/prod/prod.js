@@ -1,6 +1,6 @@
 import React from "react";
-import list from '../data';
-import Cards from'./card';
+import list from '../data1';
+import Cards from'./Card/Card';
 import '../styles/prod.css';
 
 const Prod=({cart, setCart, setWarning })=>{
