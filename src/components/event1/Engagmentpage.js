@@ -5,7 +5,7 @@ import PhotoNav from "../PhotoNav/PhotoNav";
 
 import imgtop from '../assest/images/p (1).jpg';
 import img1 from '../assest/images/destbutionnav.jpg';
-g
+
 import img6 from '../assest/images/decore1.jpg';
 
 import img11 from '../assest/images/accessoresnav.jpg';
