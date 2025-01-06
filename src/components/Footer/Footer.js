@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="footer-content">
         <h1 className="store-name">Golden Glow</h1>
         <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/ANajahUni?locale=ar_AR" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="icon icon-facebook" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/glamorous.event?igsh=MTR6MTZnMTZwNzNudw==" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="icon icon-instagram" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
