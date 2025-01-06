@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./Card.css"
 import AddToCart from "../AddToCard/AddToCart";
-import "../AddToCard/AddToCart.css";
+import"../AddToCard/AddToCart.css";
 
 const Card = (props) => {
   return (
