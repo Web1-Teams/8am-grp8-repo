@@ -19,6 +19,7 @@ import picture15 from "../assest/images/pic1/picture15.jpg";
 
 const Products = () => {
   return (
+
     <div className="mt-40">
       
       <div className="container">
@@ -74,6 +75,10 @@ const Products = () => {
             
             </div>
             </div>
+
+    <div className="mt-4">
+      <SpecialTitle title={"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"} className={"text-center"} />
+
     </div>
   );
 };
