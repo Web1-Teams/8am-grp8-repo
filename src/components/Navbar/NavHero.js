@@ -78,23 +78,14 @@ const NavHero = () => {
      </ul>
        
 
-
-
-
-
-
-
-
-
-
           <div className="new ">
            <CiSearch size={28} />
            <div className=" position-relative">
            <BsCartPlus size={28}/> 
           <span className="cartItem">
-        0
-        </span>
-        </div>
+             0
+           </span>
+             </div>
         </div>
         </div>
       </div>

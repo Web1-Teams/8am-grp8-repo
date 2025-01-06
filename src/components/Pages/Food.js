@@ -2,10 +2,10 @@
 const Food = () => {
     return (
       <div className="mt-40">
-tact
+       tact
       </div>
     )
   }
   
-  export default Food
+  export default Food;
   

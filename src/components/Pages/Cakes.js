@@ -1,14 +1,9 @@
+import React from 'react'
 
 const Cakes = () => {
-    return (
-      <div className="mt-40">Login</div>
+  return (
+    <div>Cakes</div>
+  )
+}
 
-
-
-      
-    )
-  }
-  
-  export default Cakes
-  
-  
+export default Cakes;

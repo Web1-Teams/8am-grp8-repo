@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Form from "../Form/OrderForm";
+
 
 const Event = () => {
   return (
@@ -9,4 +9,4 @@ const Event = () => {
   )
 }
 
-export default  Event
+export default  Event;

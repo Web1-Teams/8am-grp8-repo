@@ -2,6 +2,13 @@
     box-sizing: border-box; 
     margin: 0;
   }
+  .footer {
+    margin-top: auto; 
+    text-align: center;
+    padding: 25px;
+    background-color: #e7d7df;
+    font-family: 'Arial', sans-serif;
+  }
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -10,7 +17,7 @@
   }
   .store-name {
     font-size: 28px; 
-    color: #ffd900c6; 
+    color: #000000c6; 
     letter-spacing: 5px;
     font-family: 'Lucida Handwriting', cursive;
     text-transform: uppercase; 

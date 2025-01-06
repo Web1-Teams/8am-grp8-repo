@@ -62,7 +62,13 @@ const FormBook = () => {
                 </div>
                <div className="modal-footer">
                  <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" className="btn btn-primary">Add to Cart</button>
+                    { <button type="submit" className="btn btn-primary">Add to Cart</button> }
+                    {/* {<AddToCart   item={props.item}  */}
+                            
+                          
+                    {/* /> } */}
+
+
                  </div>
             </form>
             </div>

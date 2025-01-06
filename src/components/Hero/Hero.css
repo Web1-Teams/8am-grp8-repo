@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 80px 10%;
-    background: linear-gradient(120deg, #dadbdd, #ebe9e9);
+    background: linear-gradient(120deg, #ffffff, #ebe9e9);
     background-size: 300% 300%;
     animation: waveAnimation 15s ease-in-out infinite;
     height: auto;
@@ -28,7 +28,7 @@
   }
   
   .hero .text small {
-    color: #afa2a2;
+    color: #c9bbbb;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;

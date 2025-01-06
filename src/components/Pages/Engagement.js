@@ -7,4 +7,4 @@ const Engagement = () => {
   )
 }
 
-export default Engagement
+export default Engagement;

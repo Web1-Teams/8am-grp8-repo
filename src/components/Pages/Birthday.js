@@ -6,5 +6,5 @@ const Birthday = () => {
   )
 }
 
-export default Birthday
+export default Birthday;
 
