@@ -1,4 +1,4 @@
-import SpecialTitle from "../SpecialTitle";
+import SpecialTitle from "../specialtitle/SpecialTitle";
 
 const Products = () => {
   return (

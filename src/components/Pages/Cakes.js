@@ -1,17 +1,9 @@
-import Banner from "../Banner/Banner";
-import SpecialTitle from "../specialtitle/SpecialTitle";
-import cakeB from '../assest/images/imageW/cake.jpg';
+import React from 'react'
 
 const Cakes = () => {
-  
   return (
-    <div className="mt-40">
-      <Banner image={cakeB}/>
-      <SpecialTitle title="Cake & Gâteau"/>
-      
-    </div>
-    
-  );
-};
+    <div>Cakes</div>
+  )
+}
 
 export default Cakes;

@@ -1,11 +1,12 @@
-import Form from "../Form/OrderForm";
+import { Outlet } from "react-router-dom";
+
 
 const Event = () => {
   return (
-    <div >
-      <Form/>
+    <div className="d-flex justify-content-center my-5">
+      <Outlet/>
     </div>
   )
 }
 
-export default  Event
+export default  Event;

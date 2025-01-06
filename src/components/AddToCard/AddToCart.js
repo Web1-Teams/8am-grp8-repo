@@ -1,15 +1,15 @@
 import React from "react";
 
-const AddToCart = ({ item, cart, setCart, setWarning }) => {
+const AddToCart = (props) => {
   const handleClick = () => {
-    if (cart.indexOf(item) !== -1) {
-      setWarning(true);
+    if (props.cart.includes(props.item)) {
+      props.setWarning(true);
       setTimeout(() => {
-        setWarning(false);
+        props.setWarning(false);
       }, 2000);
       return;
     }
-    setCart([...cart, item]);
+    props.setCart([...props.cart, props.item]);
   };
 
   return (
@@ -19,4 +19,4 @@ const AddToCart = ({ item, cart, setCart, setWarning }) => {
   );
 };
 
-export default AddToCart;
+export default AddToCart;
