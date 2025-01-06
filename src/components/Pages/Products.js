@@ -40,7 +40,7 @@ const Products = () => {
             <Card img={picture4} title="Chocolate Bouquet" description="A unique bouquet of luxurious chocolate and purple flowers." price="24" />
             </div>
             <div className="col-3">
-            <Card img={picture5} title="Balloon Bouquet" description="Luxurious purple balloon arrangement with the flowers for gifts on special occasions." price="25" />
+            <Card img={picture5} title="Balloon Bouquet" description="purple balloon arrangement with the flowers for gifts on special occasions." price="25" />
           </div>
           <div className="col-3">
             <Card img={picture6} title="Event distributions" description="A simple gift with the finest luxury chocolate, suitable for special occasions." price="32" />
@@ -52,19 +52,19 @@ const Products = () => {
             <Card img={picture8} title="Memory Board" description="Decorative plaque with photos and lights, perfect for displaying memories." price="64" />
             </div>
             <div className="col-3">
-            <Card img={picture9} title="Welcome Sign" description=" A floral-decorated sign that says Welcome , used to adorn the entrance at events." price="40" />
+            <Card img={picture9} title="Welcome Sign" description="Welcome floral banner, used to decorate the entrance at events." price="40" />
           </div>
           <div className="col-3">
             <Card img={picture10} title="It's a Boy Sign" description="A colorful sign announcing the arrival of a baby boy, perfect for baby showers. " price="21" />
           </div>
           <div className="col-3">
-            <Card img={picture11} title="Birthday Balloons" description="A group of colorful and distinctive balloons with the words “Happy Birthday” on them." price="29" />
+            <Card img={picture11} title="Birthday Balloons" description="A group of colorful balloons with the words Happy Birthday written on them." price="29" />
             </div>
             <div className="col-3">
             <Card img={picture12} title="Flower Bouquet" description="Beautiful bouquet of flowers including white and pink roses." price="40" />
             </div>
             <div className="col-3">
-            <Card img={picture13} title="Floral Number" description="Numbers with a distinctive design. Dial the number that suits you." price="150$" />
+            <Card img={picture13} title="Floral Number" description="Numbers with a distinctive design. Dial the number that suits you." price="150" />
           </div>
           <div className="col-3">
             <Card img={picture14} title="Sweets stand" description="A multi-layer stand, ideal for displaying sweets and cakes on special occasions." price="95" />
@@ -77,8 +77,8 @@ const Products = () => {
             </div>
 
     <div className="mt-4">
-      <SpecialTitle title={"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"} className={"text-center"} />
-
+     
+</div>
     </div>
   );
 };
