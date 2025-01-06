@@ -4,7 +4,7 @@
   box-shadow: 0px 2px 4px rgba(14, 17, 71, 0.3);
   border-radius: 20px;
 
-  margin: 20px auto; 
+  margin: 20px;
 
   transition: box-shadow 0.3s ease;
 }
@@ -15,8 +15,9 @@
 
 .card img {
 
-  width: 100%; 
-  height: auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 
   padding: 10px;
   box-sizing: border-box;
@@ -63,12 +64,16 @@
 .old-price {
   text-decoration: line-through;
   color: gray;
+
   margin-right: 12px; 
+
 }
 
 .new-price {
   font-weight: bold;
+
   color: #e74c3c; 
+
 }
 
 .btn {
@@ -81,6 +86,7 @@
 
 .btn:hover {
   background: linear-gradient(135deg, #2e83ff, #0170f9);
+
 }
 
 
