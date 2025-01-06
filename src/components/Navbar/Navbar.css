@@ -29,17 +29,17 @@
   }
 
   .nav-item .hover-link:hover{
-    color: #d1529c !important;
+    color: #973a71 !important;
 
   }
  .nav-item .nav-link{
- color: black !important ;
+ color: rgb(10, 10, 10) !important ;
   font-size: 18px;
   font-weight: 400;
  }
   
   .Logo{
-    color:deeppink;
+    color:#973a71;
   }
 
   #navbarNav{

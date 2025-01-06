@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./Card.css"
 import AddToCart from "../AddToCard/AddToCart";
-import "../AddToCard/AddToCart.css";
+import"../AddToCard/AddToCart.css";
 
 const Card = (props) => {
   return (
@@ -12,7 +12,16 @@ const Card = (props) => {
         <p>{props.description}</p>
       </div>
       <div className="card-footer">
-        <span className="price">${props.price}</span>
+        <div className="price">
+          {props.new ? (
+            <div className="price-container">
+              <span className="old-price">${props.price}</span>
+              <span className="new-price">${props.new}</span>
+            </div>
+          ) : (
+            <span>${props.price}</span>
+          )}
+        </div>
         <AddToCart
           item={props.item}
           cart={props.cart}
@@ -24,4 +33,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default Card;
