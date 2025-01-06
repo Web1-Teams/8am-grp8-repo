@@ -40,16 +40,16 @@
 
 }
 .container .btn{
-    width: 100%;
-    height: 45px;
-    background: #c99797;
+    width: 40%;
+    height: 30%;
+    background: #413dcc;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #fffafa;
     font-weight: 600
 
 
