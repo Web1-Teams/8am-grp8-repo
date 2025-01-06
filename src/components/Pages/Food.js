@@ -75,7 +75,7 @@ const Food = () => {
             <Card
               img={Food7}
               title="SANDWICH"
-              description="Sandwich with chopped meat and side fries. Served with a choice of creamy mayonnaise and tangy ketchup for a flavorful experience."
+              description="Sandwich with chopped meat and side fries. Served with a choice of creamy mayonnaise and tangy ketchup ."
               price="8"
             />
           </div>

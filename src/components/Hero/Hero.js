@@ -10,7 +10,7 @@ const Hero=() =>{
     <section className="hero">
       <div className="text">
         <small>All Thing Needs for Parties</small>
-        {/* <h1>Planning Celebration & Design</h1> */}
+      
         <p>
         "Welcome to your one-stop destination for unforgettable celebrations! From birthdays to engagements and graduations, we bring your special moments to life with stunning decorations, delectable cakes, and unique products."
         </p>

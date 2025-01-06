@@ -4,7 +4,7 @@ import cakeB from '../assest/images/imageW/cake.jpg';
 import cake1 from '../assest/images/imageW/cake-9.avif';
 import cake2 from '../assest/images/imageW/cake11.avif';
 import cake3 from '../assest/images/imageW/cake-8.jpg';
-import cake4 from '../assest/images/imageW/cake-7.jpg';
+import cake4 from '../assest/images/cake-7.jpg';
 import cake5 from '../assest/images/imageW/cake-5.avif';
 import cake6 from '../assest/images/imageW/a102ff3a1258cacc17118397b6dd2523.jpg';
 import cake7 from '../assest/images/imageW/cake-6.jpg';
