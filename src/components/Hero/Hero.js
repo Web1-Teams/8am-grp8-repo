@@ -1,27 +1,32 @@
 import React from "react";
 import "./Hero.css";
+import pepole from "../assest/images/janaImg/pepole.jpeg";
+import logo22 from "../assest/images/janaImg/logo22.jpeg";
+
+import logo222 from "../assest/images/janaImg/logo222.jpeg";
 
 const Hero=() =>{
   return (
     <section className="hero">
       <div className="text">
         <small>All Thing Needs for Parties</small>
-        <h1>Planning Celebration & Design</h1>
+        {/* <h1>Planning Celebration & Design</h1> */}
         <p>
-          Welcome to Golden Glow, where we turn every small party into an
-          exceptional event filled with joy and beautiful moments.
+        "Welcome to your one-stop destination for unforgettable celebrations! From birthdays to engagements and graduations, we bring your special moments to life with stunning decorations, delectable cakes, and unique products."
         </p>
-        <button>Shop Now</button>
+       
       </div>
       <div className="hero-image">
         <img
-          src="product-category12-copyright-630x630.jpg"
-          alt="Yellow Jacket"
+           src={logo22}
+        
+          alt="partiy"
           className="default"
         />
         <img
-          src="product-image1-copyright-630x630.jpg"
-          alt="Red Jacket"
+       
+          src={logo222}
+           alt="imeg"
           className="hover-image"
         />
       </div>
