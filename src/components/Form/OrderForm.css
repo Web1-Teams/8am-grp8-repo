@@ -1,11 +1,11 @@
 .form-container {
   border-radius: 40px;
   width: 100%;
-  max-width: 500px; /* العرض الأقصى */
+  max-width: 500px; 
   padding: 30px 20px;
   background-color: #ffffff; 
   box-shadow: 0 10px 30px rgb(53, 50, 50);
-  margin: 20px auto; /* توسيط النموذج وإبعاده عن البداية والنهاية */
+  margin: 20px auto; 
 }
 
 .header-message {

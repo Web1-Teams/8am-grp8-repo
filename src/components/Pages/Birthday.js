@@ -41,7 +41,7 @@ const Birthday = () => {
       </div>
         
       <div className="container">
-       <div id="decoration" className="row center-content">
+       <div id="Distributions" className="row center-content">
           <SpecialTitle title="Distributions" />
           <div className="col-4">
           <Card2 img={card21}title="Coordinator box" description="A medium-sized box containing a commemorative medallion in addition to chocolate balls in unique packaging. The price below is for one box." price="10" />
@@ -56,7 +56,7 @@ const Birthday = () => {
       </div>
 
       <div className="container">
-        <div id="decoration" className="row center-content">
+        <div id="Accessories" className="row center-content">
           <SpecialTitle title="Clowns" />
           <div className="col-4">
           <Card2 img={card31}title="Tyler" description="She creates a fun atmosphere by designing entertaining group games and drawing on children’s faces. The price below is for an hour of work." price="15" />

@@ -34,7 +34,7 @@ const Products = () => {
             <Card img={picture2} title="Christmas Tree" description="A little heavenly Christmas tree in beautiful pink arrangements." price="130" />
           </div>
           <div className="col-3">
-            <Card img={picture3} title="Floral Basket" description="A flower basket made of wood, decorated with beautiful flowers, suitable for gifts." price="36" />
+            <Card img={picture3} title="Floral Basket" description="A flower basket made of wood, decorated with beautiful flowers." price="36" />
             </div>
             <div className="col-3">
             <Card img={picture4} title="Chocolate Bouquet" description="A unique bouquet of luxurious chocolate and purple flowers." price="24" />
@@ -61,13 +61,13 @@ const Products = () => {
             <Card img={picture11} title="Birthday Balloons" description="A group of colorful and distinctive balloons with the words “Happy Birthday” on them." price="29" />
             </div>
             <div className="col-3">
-            <Card img={picture12} title="Flower Bouquet" description="Beautiful bouquet of flowers including white and pink roses." price="40" />
+            <Card img={picture12} title="Flower Bouquet" description="Beautiful bouquet of flowers including white and pink roses flower." price="40" />
             </div>
             <div className="col-3">
-            <Card img={picture13} title="Floral Number" description="Numbers with a distinctive design. Dial the number that suits you." price="150$" />
+            <Card img={picture13} title="Floral Number" description="Numbers with a distinctive design. Dial the number that suits you." price="150" />
           </div>
           <div className="col-3">
-            <Card img={picture14} title="Sweets stand" description="A multi-layer stand, ideal for displaying sweets and cakes on special occasions." price="95" />
+            <Card img={picture14} title="Sweets stand" description="A multi-layer stand, ideal for displaying sweets and cakes ." price="95" />
           </div>
           <div className="col-3">
             <Card img={picture15} title="Luxury Candle" description="Modern design candle, featuring a faint flame, can be used as a gift." price="18" />
@@ -77,8 +77,8 @@ const Products = () => {
             </div>
 
     <div className="mt-4">
-      <SpecialTitle title={"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"} className={"text-center"} />
-
+    
+</div>
     </div>
   );
 };

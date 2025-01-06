@@ -36,3 +36,18 @@ trillo:
 https://trello.com/invite/b/67501f1a3da0875bbb177c4b/ATTI938bc2948a848c8335a9128624587b0d1D822C0F/الجدول-الاسبوعي
 Features:
 Card , form , add to cart ,Book now,Cart , Hero 
+
+
+4.link:
+https://youtu.be/okbByPWS1Xc?si=xSF7R9px10QBPNVs
+https://youtu.be/l7WzND2sD-A?si=NtoRGc-ZMLFPC37t
+
+
+5.npm start (run code)
+https://youtu.be/vbXzbP2WTBk?si=J7Exgx-oQYg7rjPy
+https://youtu.be/4L7rNMWI-_I?si=dIZ5mf0hkiJtNpMq
+
+
+npm start // how to run code 
+
+Done

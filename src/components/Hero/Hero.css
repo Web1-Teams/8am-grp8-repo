@@ -1,107 +1,102 @@
 @keyframes waveAnimation {
   0% {
-    background-position: 0% 50%; /* بداية الرسوم المتحركة: موضع الخلفية */
+    background-position: 0% 50%; 
   }
   50% {
-    background-position: 100% 50%; /* منتصف الرسوم المتحركة: تحريك الخلفية إلى اليمين */
+    background-position: 100% 50%; 
   }
   100% {
-    background-position: 0% 50%; /* نهاية الرسوم المتحركة: إعادة الخلفية إلى الموضع الأصلي */
+    background-position: 0% 50%; 
   }
 }
 
 .hero {
-  display: flex; /* استخدام Flexbox لتوزيع العناصر الفرعية */
-  align-items: center; /* محاذاة العناصر الفرعية عموديًا في المنتصف */
-  justify-content: space-between; /* توزيع العناصر الفرعية مع وجود مساحة متساوية بينها */
-  padding: 80px 10%; /* إضافة مساحة داخلية حول العنصر */
-  background: linear-gradient(120deg, #ffffff, #ebe9e9); /* إضافة تدرج لخلفية العنصر */
-  background-size: 300% 300%; /* تحديد حجم الخلفية */
-  animation: waveAnimation 15s ease-in-out infinite; /* تطبيق الرسوم المتحركة المعرفة سابقًا */
-  height: auto; /* جعل ارتفاع العنصر يتكيف مع محتواه */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 80px 10%; 
+  background: linear-gradient(120deg, #ffffff, #ebe9e9); 
+  background-size: 300% 300%; 
+  animation: waveAnimation 15s ease-in-out infinite; 
+  height: auto; 
 }
 
 .hero .text {
-  max-width: 60%; /* الحد الأقصى لعرض النص ليكون 60% من عرض العنصر الرئيسي */
-  font-family:'Times New Roman', Times, serif;
-  
+  max-width: 60%; 
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .hero .text small {
-  color: #973a71; /* تحديد لون النص */
-  font-size: 35px; /* تحديد حجم النص */
-  font-weight: bold; /* جعل النص عريض */
-  text-transform: capitalize; /* تحويل النص إلى حروف كبيرة */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* نوع الخط الصغير */
-  
+  color: #973a71; 
+  font-size: 35px; 
+  font-weight: bold; 
+  text-transform: capitalize; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero .text h1 {
-  font-size: 32px; /* تحديد حجم النص للعناوين */
-  margin: 10px 0; /* إضافة مساحة حول العنصر */
-  color: #c26595b7; /* تحديد لون النص للعناوين */
-  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* نوع خط العنوان */
-  
+  font-size: 32px; 
+  margin: 10px 0; 
+  color: #c26595b7; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero .text p {
-  color: #080808; /* تحديد لون النص للفقرات */
-  margin: 20px 0 20px; /* إضافة مسافات حول الفقرات */
-  line-height: 2; /* تحديد ارتفاع السطر للفقرات */
-  font-size: 20px; /* تحديد حجم النص للفقرات */
- /* نوع خط الفقرة */
-  line-height: 3; /* إضافة مسافة بين السطور */
+  color: #080808; 
+  margin: 20px 0 20px; 
+  line-height: 3; 
+  font-size: 20px; 
 }
 
 .hero .text button {
-  background-color: #0227fc; /* تحديد لون الخلفية للزر */
-  border: none; /* إزالة الحواف للزر */
-  padding: 15px 35px; /* إضافة مساحة داخلية حول الزر */
-  color: #fff; /* تحديد لون النص داخل الزر */
-  font-size: 16px; /* تحديد حجم النص داخل الزر */
-  font-weight: bold; /* جعل النص داخل الزر عريض */
-  border-radius: 35px; /* جعل حواف الزر منحنية */
-  cursor: pointer; /* تغيير مؤشر الفأرة عند التمرير فوق الزر */
-  transition: transform 0.3s ease; /* إضافة تأثير التحويل ببطء عند التمرير فوق الزر */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* نوع خط الزر */
+  background-color: #0227fc; 
+  border: none; 
+  padding: 15px 35px; 
+  color: #fff; 
+  font-size: 16px; 
+  font-weight: bold; 
+  border-radius: 35px; 
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero .text button:hover {
-  transform: scale(1.05); /* تكبير حجم الزر قليلاً عند التمرير فوقه */
+  transform: scale(1.05); 
 }
 
 .hero-image {
-  position: relative; /* جعل العنصر بالنسبة للموقع الحالي */
-  width: 400px; /* عرض الصورة */
-  height: 550px; /* ارتفاع الصورة */
-  overflow: hidden; /* إخفاء الأجزاء التي تخرج عن حجم العنصر */
-  border: none; /* إزالة الحواف */
-  border-radius: 20px; /* حواف منحنية */
+  position: relative; 
+  width: 400px; 
+  height: 550px; 
+  overflow: hidden; 
+  border: none; 
+  border-radius: 20px; 
 }
 
 .hero-image img {
-  position: absolute; /* جعل الصور داخل العنصر بالنسبة للموقع الحالي */
-  top: 0; /* وضع الصور في الزاوية العلوية اليسرى من العنصر */
-  left: 0; /* وضع الصور في الزاوية العلوية اليسرى من العنصر */
-  width: 100%; /* جعل الصور تأخذ حجم العنصر بالكامل */
-  height: 100%; /* جعل الصور تأخذ حجم العنصر بالكامل */
-  object-fit: cover; /* جعل الصور تغطي كامل حجم العنصر بشكل جيد */
-  transition: opacity 0.3s ease-in-out; /* إضافة تأثير تغيير الشفافية ببطء عند التبديل بين الصور */
-  border-radius: 20px; /* حواف منحنية للصور داخل العنصر */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  transition: opacity 0.3s ease-in-out; 
+  border-radius: 20px; 
 }
 
 .hero-image .hover-image {
-  opacity: 0; /* جعل الصورة غير مرئية في البداية */
+  opacity: 0; 
 }
 
 .hero-image:hover .hover-image {
-  opacity: 1; /* جعل الصورة مرئية عند التمرير فوق العنصر */
+  opacity: 1; 
 }
 
 .hero-image:hover .default {
-  opacity: 0; /* جعل الصورة الافتراضية غير مرئية عند التمرير فوق العنصر */
+  opacity: 0; 
 }
 
 img {
-  background-color: transparent; /* جعل خلفية الصور شفافة */
+  background-color: transparent; 
 }

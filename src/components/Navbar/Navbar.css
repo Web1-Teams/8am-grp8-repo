@@ -18,13 +18,12 @@
     align-items: center; 
   } 
   .new{
-    /* d-flex  gap-4   align-items-center */
+    
     display: flex;
     align-items: center;
     gap: 12px;
    cursor: pointer;
-   /* margin-right: 30px; */
-
+  
   
   }
 
