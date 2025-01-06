@@ -3,17 +3,17 @@
   box-shadow: 0px 2px 4px rgba(14, 17, 71, 0.3);
   border-radius: 20px;
   margin: 20px;
-  transition: box-shadow 0.3s ease; /* احتفظ بتحويل الظل فقط بدون تحريك الكارد */
+  transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-  /* إزالة خاصية التحويل */
   box-shadow: 0px 4px 8px rgba(55, 65, 247, 0.5);
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
@@ -32,6 +32,7 @@
   text-align: center;
   margin-bottom: 10px;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .card-content p {
@@ -48,9 +49,22 @@
 }
 
 .price {
+  display: flex;
+  align-items: center;
   font-size: 27px;
   font-weight: 600;
   color: #31299e;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 12px; 
+}
+
+.new-price {
+  font-weight: bold;
+  color: #e74c3c; 
 }
 
 .btn {
@@ -62,5 +76,5 @@
 }
 
 .btn:hover {
-  background: linear-gradient(135deg, #2e83ff, #0170f9);
+  background: linear-gradient(135deg, #2e83ff, #0170f9);
 }
